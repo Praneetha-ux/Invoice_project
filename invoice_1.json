@@ -1,0 +1,29 @@
+{
+    "invoice_number": "INV-3337",
+    "customer_name": "Test Business",
+    "customer_address": {
+        "street": "123 Somewhere St",
+        "city": "Melbourne",
+        "state": "VIC",
+        "postcode": "3000"
+    },
+    "customer_email": "test@test.com",
+    "invoice_date": "January 25, 2016",
+    "due_date": "January 31, 2016",
+    "total_due": "93.50",
+    "services": [
+        {
+            "service_name": "Web Design",
+            "service_rate": "85.00",
+            "service_quantity": "1.00",
+            "service_subtotal": "85.00",
+            "service_tax": "0.00"
+        }
+    ],
+    "bank_details": {
+        "bank_name": "ANZ Bank",
+        "account_number": "1234 1234",
+        "bsb": "4321 432"
+    },
+    "payment_terms": "Payment is due within 30 days from date of invoice. Late payment is subject to fees of 5% per month."
+}

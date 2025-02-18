@@ -1,0 +1,33 @@
+{
+    "invoice_number": "INV-7644",
+    "order_number": "87254",
+    "from": {
+        "company_name": "DEMO-Sliced Invoices",
+        "address": "Suite 5A-1204, 123 Somewhere Street, Your City AZ 12345",
+        "email": "admin@slicedinvoices.com"
+    },
+    "to": {
+        "name": "D Ameena",
+        "address": "Sai nagar, Melbourne, VIC 3000",
+        "email": "mania@abc.com"
+    },
+    "invoice_date": "November 21, 2019",
+    "due_date": "December 01, 2019",
+    "items": [
+        {
+            "service": "APP DEVEPLOPMENT",
+            "rate": 100.0,
+            "price": 100.0,
+            "adjustment": 0.0,
+            "sub_total": 100.0
+        }
+    ],
+    "tax": 0.0,
+    "total": 112.5,
+    "bank": {
+        "name": "SBI Bank",
+        "account_number": "1434 1234",
+        "bsb": "4321 492"
+    },
+    "total_due": 112.5
+}

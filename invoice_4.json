@@ -1,0 +1,43 @@
+{
+    "invoiceNumber": "INV-7644",
+    "from": {
+        "orderNumber": "87254",
+        "company": "DEMO-Sliced Invoices",
+        "address": {
+            "street": "Suite 5A-1204",
+            "city": "Your City",
+            "state": "AZ",
+            "zip": "12345",
+            "email": "admin@slicedinvoices.com"
+        }
+    },
+    "to": {
+        "name": "D Khutija Gandikota",
+        "address": {
+            "street": "163 Mania St",
+            "city": "Hyderabad",
+            "state": "500081",
+            "email": "khutija@abc.com"
+        }
+    },
+    "items": [
+        {
+            "quantity": 2,
+            "service": "Python DEPVELOPMENT",
+            "rate": 100.0,
+            "price": 200.0,
+            "adjustment": 0.0,
+            "subtotal": 200.0
+        }
+    ],
+    "totals": {
+        "subtotal": 200.0,
+        "tax": 12.0,
+        "total": 212.5
+    },
+    "payment": {
+        "bank": "ICICI Bank",
+        "accountNumber": "9989 1234",
+        "branchCode": "8688 492"
+    }
+}

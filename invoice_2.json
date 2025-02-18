@@ -1,0 +1,46 @@
+{
+    "invoice_number": "INV-3337",
+    "from": {
+        "company": "DEMO - Sliced Invoices",
+        "order_number": "12345",
+        "address": {
+            "street": "123 Somewhere Street",
+            "suite": "5A-1204",
+            "city": "Your City",
+            "state": "AZ",
+            "zip": "12345"
+        },
+        "email": "admin@slicedinvoices.com"
+    },
+    "to": {
+        "company": "Test Business",
+        "address": {
+            "street": "123 Somewhere St",
+            "city": "Melbourne",
+            "state": "VIC",
+            "zip": "3000"
+        },
+        "email": "test@test.com"
+    },
+    "total_due": 22000.0,
+    "services": [
+        {
+            "service": "Web Design",
+            "rate": 20000.0,
+            "price": 20000.0,
+            "adjustment": 0.0,
+            "subtotal": 20000.0
+        }
+    ],
+    "tax": 2000.0,
+    "payment_terms": {
+        "due_date": "January 31, 2016",
+        "late_fee": 5.0,
+        "late_payment_fee": "5% per month"
+    },
+    "bank_info": {
+        "bank": "ANZ Bank",
+        "account_number": "1234 1234",
+        "bsb": "4321 432"
+    }
+}
